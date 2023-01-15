@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 37, 45);
+}
+
+.ensemble{
+    display: flex;    
+    flex-direction: column;
+    width: 100%;
+}
+
+.square{
+    width: 5%;
+    filter: "";
+}
+
+.button {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 5px solid rgb(0, 140, 255);
+    border-radius: 10px;
+    background-color: rgba(76, 83, 161, 0.199);
+    width: 30%;
+    height: 30%;
+}
+
+button{
+    cursor: pointer;
+    font-size: 60px;
+    font-family: Georgia;
+    color: white;
+    background-color: rgba(76, 83, 161, 0.199);
+    border-radius: 25px;
+    border: 2px solid rgb(0, 140, 255);
+}
+
+.supperposition{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
